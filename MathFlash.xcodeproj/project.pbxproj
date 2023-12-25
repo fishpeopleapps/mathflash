@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3C24632B3A411F002117EE /* OperationQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C24622B3A411F002117EE /* OperationQuestion.swift */; };
+		DF42E8702B309008004C0A22 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF42E86F2B309008004C0A22 /* MenuView.swift */; };
+		DF42E8722B3090AA004C0A22 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF42E8712B3090AA004C0A22 /* GameOverView.swift */; };
+		DF5DDFEB2B23BE0B0080DB33 /* MathFlashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DDFEA2B23BE0B0080DB33 /* MathFlashApp.swift */; };
+		DF5DDFED2B23BE0B0080DB33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DDFEC2B23BE0B0080DB33 /* ContentView.swift */; };
+		DF5DDFEF2B23BE0C0080DB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5DDFEE2B23BE0C0080DB33 /* Assets.xcassets */; };
+		DF5DDFF22B23BE0C0080DB33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5DDFF12B23BE0C0080DB33 /* Preview Assets.xcassets */; };
+		DF5DDFF92B23BEA40080DB33 /* HowManyMultiplesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DDFF82B23BEA40080DB33 /* HowManyMultiplesQuestion.swift */; };
+		DF5DDFFB2B23BFF50080DB33 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DDFFA2B23BFF50080DB33 /* QuestionView.swift */; };
+		DF5DDFFD2B23C1570080DB33 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DDFFC2B23C1570080DB33 /* ViewModel.swift */; };
+		DF9309752B3260C400F5B7E0 /* MultiplesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9309742B3260C400F5B7E0 /* MultiplesQuestion.swift */; };
+		DF9309772B33CB8400F5B7E0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9309762B33CB8400F5B7E0 /* Question.swift */; };
+		DF9309792B33CDD200F5B7E0 /* HighestLowestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9309782B33CDD200F5B7E0 /* HighestLowestQuestion.swift */; };
+		DFF891202B2B231C00818514 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8911F2B2B231C00818514 /* PlayingView.swift */; };
+		DFF891222B2B268B00818514 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF891212B2B268B00818514 /* Styles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF3C24622B3A411F002117EE /* OperationQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQuestion.swift; sourceTree = "<group>"; };
+		DF42E86F2B309008004C0A22 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		DF42E8712B3090AA004C0A22 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		DF5DDFE72B23BE0B0080DB33 /* MathFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5DDFEA2B23BE0B0080DB33 /* MathFlashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathFlashApp.swift; sourceTree = "<group>"; };
+		DF5DDFEC2B23BE0B0080DB33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF5DDFEE2B23BE0C0080DB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5DDFF12B23BE0C0080DB33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF5DDFF82B23BEA40080DB33 /* HowManyMultiplesQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyMultiplesQuestion.swift; sourceTree = "<group>"; };
+		DF5DDFFA2B23BFF50080DB33 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		DF5DDFFC2B23C1570080DB33 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DF9309742B3260C400F5B7E0 /* MultiplesQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesQuestion.swift; sourceTree = "<group>"; };
+		DF9309762B33CB8400F5B7E0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DF9309782B33CDD200F5B7E0 /* HighestLowestQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestLowestQuestion.swift; sourceTree = "<group>"; };
+		DFF8911F2B2B231C00818514 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		DFF891212B2B268B00818514 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5DDFE42B23BE0B0080DB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5DDFDE2B23BE0B0080DB33 = {
+			isa = PBXGroup;
+			children = (
+				DF5DDFE92B23BE0B0080DB33 /* MathFlash */,
+				DF5DDFE82B23BE0B0080DB33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5DDFE82B23BE0B0080DB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5DDFE72B23BE0B0080DB33 /* MathFlash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5DDFE92B23BE0B0080DB33 /* MathFlash */ = {
+			isa = PBXGroup;
+			children = (
+				DF5DDFEA2B23BE0B0080DB33 /* MathFlashApp.swift */,
+				DFF891212B2B268B00818514 /* Styles.swift */,
+				DF5DDFEC2B23BE0B0080DB33 /* ContentView.swift */,
+				DFF8911F2B2B231C00818514 /* PlayingView.swift */,
+				DF5DDFF82B23BEA40080DB33 /* HowManyMultiplesQuestion.swift */,
+				DF5DDFFA2B23BFF50080DB33 /* QuestionView.swift */,
+				DF42E86F2B309008004C0A22 /* MenuView.swift */,
+				DF9309742B3260C400F5B7E0 /* MultiplesQuestion.swift */,
+				DF9309762B33CB8400F5B7E0 /* Question.swift */,
+				DF42E8712B3090AA004C0A22 /* GameOverView.swift */,
+				DF5DDFFC2B23C1570080DB33 /* ViewModel.swift */,
+				DF9309782B33CDD200F5B7E0 /* HighestLowestQuestion.swift */,
+				DF3C24622B3A411F002117EE /* OperationQuestion.swift */,
+				DF5DDFEE2B23BE0C0080DB33 /* Assets.xcassets */,
+				DF5DDFF02B23BE0C0080DB33 /* Preview Content */,
+			);
+			path = MathFlash;
+			sourceTree = "<group>";
+		};
+		DF5DDFF02B23BE0C0080DB33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF5DDFF12B23BE0C0080DB33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5DDFE62B23BE0B0080DB33 /* MathFlash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5DDFF52B23BE0C0080DB33 /* Build configuration list for PBXNativeTarget "MathFlash" */;
+			buildPhases = (
+				DF5DDFE32B23BE0B0080DB33 /* Sources */,
+				DF5DDFE42B23BE0B0080DB33 /* Frameworks */,
+				DF5DDFE52B23BE0B0080DB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathFlash;
+			productName = MathFlash;
+			productReference = DF5DDFE72B23BE0B0080DB33 /* MathFlash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5DDFDF2B23BE0B0080DB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DF5DDFE62B23BE0B0080DB33 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DF5DDFE22B23BE0B0080DB33 /* Build configuration list for PBXProject "MathFlash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5DDFDE2B23BE0B0080DB33;
+			productRefGroup = DF5DDFE82B23BE0B0080DB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5DDFE62B23BE0B0080DB33 /* MathFlash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5DDFE52B23BE0B0080DB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5DDFF22B23BE0C0080DB33 /* Preview Assets.xcassets in Resources */,
+				DF5DDFEF2B23BE0C0080DB33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5DDFE32B23BE0B0080DB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5DDFFD2B23C1570080DB33 /* ViewModel.swift in Sources */,
+				DF42E8702B309008004C0A22 /* MenuView.swift in Sources */,
+				DFF891222B2B268B00818514 /* Styles.swift in Sources */,
+				DF5DDFFB2B23BFF50080DB33 /* QuestionView.swift in Sources */,
+				DF5DDFED2B23BE0B0080DB33 /* ContentView.swift in Sources */,
+				DFF891202B2B231C00818514 /* PlayingView.swift in Sources */,
+				DF5DDFF92B23BEA40080DB33 /* HowManyMultiplesQuestion.swift in Sources */,
+				DF42E8722B3090AA004C0A22 /* GameOverView.swift in Sources */,
+				DF9309792B33CDD200F5B7E0 /* HighestLowestQuestion.swift in Sources */,
+				DF5DDFEB2B23BE0B0080DB33 /* MathFlashApp.swift in Sources */,
+				DF3C24632B3A411F002117EE /* OperationQuestion.swift in Sources */,
+				DF9309772B33CB8400F5B7E0 /* Question.swift in Sources */,
+				DF9309752B3260C400F5B7E0 /* MultiplesQuestion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF5DDFF32B23BE0C0080DB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF5DDFF42B23BE0C0080DB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5DDFF62B23BE0C0080DB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MathFlash/Preview Content\"";
+				DEVELOPMENT_TEAM = Q73WC8F3KU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fishpeopleapps.MathFlash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF5DDFF72B23BE0C0080DB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MathFlash/Preview Content\"";
+				DEVELOPMENT_TEAM = Q73WC8F3KU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fishpeopleapps.MathFlash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5DDFE22B23BE0B0080DB33 /* Build configuration list for PBXProject "MathFlash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5DDFF32B23BE0C0080DB33 /* Debug */,
+				DF5DDFF42B23BE0C0080DB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5DDFF52B23BE0C0080DB33 /* Build configuration list for PBXNativeTarget "MathFlash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5DDFF62B23BE0C0080DB33 /* Debug */,
+				DF5DDFF72B23BE0C0080DB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5DDFDF2B23BE0B0080DB33 /* Project object */;
+}
